@@ -135,7 +135,7 @@ body {
    }
 /*--------hero------------*/
 .hero {
-    width: 1600px;
+    max-width: 1600px;
     margin: 0px auto;
     padding-top:200px;
     padding-bottom: 200px;
@@ -353,7 +353,7 @@ body {
  color: var(--color-darkgrey);
  background: var(--color-buttons);
  border-radius: 4px;
-
+ border: none;
  border-color: var(--color-buttons);
  cursor: pointer;
  padding-top: 6px;
